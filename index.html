@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Transportation Details</title>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		
+		<section id="Transportation-details">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Transportation Details</h1>
+					</div>
+
+					<div class="col-md-12">
+						<div class="box-wrapper">
+							<div>
+								<form>
+									<div class="mb-3 trans-mode-col">
+										<p>No of Transport Mode used in trip</p>
+										<input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+									</div>
+									<div class="mb-3 trans-mode-sec-col">
+										<p>Transport Mode</p>
+										<div class="search-box">
+											<input class="search-input" type="text" placeholder="Search">
+											<a class="search-btn"><i class="fa fa-search"></i></a>
+											<p class="tr-mode-choose">Transport Mode <i class="fa fa-close"></i></p>
+										</div>
+									</div>
+										<div class="mb-3 pickup-col">
+												<div class="pic-point">
+												<p>Trip start location (Pickup point)</p>
+												<input type="text" class="form-control" id="pickup-loc" placeholder="Input text">
+												<div>
+													<div class="seating-capacity">														
+														<p>Seating Capacity</p>
+														<input type="number" class="form-control" id="inputnumber" >
+													</div>
+											</div>
+										</div>
+									</div>
+											<div class="mb-3 drop-point">
+												<div class="end-loc">
+													<p>Trip End location (Drop point)</p>
+													<input type="text" class="form-control" id="drop-loc" placeholder="Input text">
+												</div>
+														<div class="ac-type">
+														<p>AC/Non AC</p>
+														<select class="form-select" aria-label="Default select example">
+														  <option selected>AC</option>
+														  <option value="1">Non AC</option>
+														</select>														
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+
+					<section id="Stay-Details">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Stay Details</h1>
+					</div>
+
+					<div class="col-md-12">
+						<div class="box-wrapper">
+							<div>
+								<form>
+									<div class="mb-3 trans-mode-col">
+										<p>No of hotel used in trip</p>
+										<input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+									</div>
+									<div class="mb-3 trans-mode-sec-col">
+										<p>Hotel Name</p>
+										<div class="search-box">
+											<input class="search-input" type="text" placeholder="Search">
+											<a class="search-btn"><i class="fa fa-search"></i></a>
+											<p class="tr-mode-choose">Hotel name 1 <i class="fa fa-close"></i></p>
+										</div>
+									</div>
+										<div class="mb-3 pickup-col">
+												<div class="pic-point">
+												<p>Hotel Location</p>
+												<input type="text" class="form-control" id="pickup-loc" placeholder="Input text">
+												<div>
+													<div class="seating-capacity">											
+														<p>Occupancy Options</p>
+														<select class="form-select" aria-label="Default select example">
+														  <option selected>Single</option>
+														  <option value="1">Double</option>
+														  <option value="1">Triple</option>
+														  <option value="1">Quad</option>
+														  <option value="1">All Option</option>
+														</select>
+													</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="addtional-service">
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+										  <label class="form-check-label" for="inlineCheckbox1">WiFi</label>
+										</div>
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+										  <label class="form-check-label" for="inlineCheckbox2">Gyser</label>
+										</div>
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+										  <label class="form-check-label" for="inlineCheckbox2">AC Room</label>
+										</div>
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+										  <label class="form-check-label" for="inlineCheckbox2">Non AC Room</label>
+										</div>
+
+									</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section id="edit-details">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Edit details</h1>
+					</div>
+
+					<div class="col-md-12">
+						<div class="box-wrapper">
+							<div class="meal-option">
+								<p>Meal option</p>
+								<div class="meal-tick">
+									<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+										  <label class="form-check-label" for="inlineCheckbox1">Breakfast</label>
+										</div>
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+										  <label class="form-check-label" for="inlineCheckbox2">Lunch</label>
+										</div>
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+										  <label class="form-check-label" for="inlineCheckbox2">Evening Snacks</label>
+										</div>
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+										  <label class="form-check-label" for="inlineCheckbox2">Dinner</label>
+										</div>
+								</div>
+							</div>
+
+
+							<div class="meal-option">
+								<p>Meal Type</p>
+								<div class="meal-tick">
+									<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+										  <label class="form-check-label" for="inlineCheckbox1">Vegetarian Only</label>
+										</div>
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+										  <label class="form-check-label" for="inlineCheckbox2">Non Vegetarian</label>
+										</div>
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+										  <label class="form-check-label" for="inlineCheckbox2">Both</label>
+										</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					</section>
+
+
+
+					<!-- Optional JavaScript -->
+					<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+					<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+					<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+					<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script></body>
+				</html>

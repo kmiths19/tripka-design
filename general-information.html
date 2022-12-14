@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="general-style.css">
+		<title>General Information</title>
+	</head>
+	<body>
+		
+		<section id="Gen-information">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">General Information</h1>
+					</div>
+					<div class="col-md-12">
+						<div class="box-wrapper">
+							<div class="row">
+								<div class="col-md-6">
+									<form>
+										<div class="mb-3 trip_flex trip_name">
+											<label for="exampleInputEmail1" class="form-label">Trip Name</label>
+											<input type="Text" class="form-control" id="tripname" aria-describedby="emailHelp">
+										</div>
+										<div class="destination ">
+											<div class="desti-from trip_flex">
+												<label for="exampleInputEmail1" class="form-label">From</label>
+												<input type="Text" class="form-control" id="trip-from" aria-describedby="emailHelp">
+											</div>
+											<div class="desti-to trip_flex">
+												<label for="exampleInputEmail1" class="form-label">To</label>
+												<input type="Text" class="form-control" id="tripto" aria-describedby="emailHelp">
+											</div>
+										</div>
+										<div class="mb-3 total-days">
+											<p>Total Days</p>
+											<div class="total-D mb-3">
+												<input type="Text" class="form-control" id="trip-d" aria-describedby="emailHelp">
+												<label for="exampleInputEmail1" class="form-label">D</label>
+											</div>
+											<div class="total-N mb-3">
+												<input type="Text" class="form-control" id="trip-n" aria-describedby="emailHelp">
+												<label for="exampleInputEmail1" class="form-label">N</label>
+											</div>
+										</div>
+										<div class="trip-date mb-3">
+											<label for="trip_date" class="form-label">Trip Date</label>
+											<input type="Date" class="form-control" id="trip_date">
+										</div>
+										<div class="pickup_point mb-3">
+											<label for="pickup_point" class="form-label">Pickup Point</label>
+											<input type="Text" class="form-control" id="pickup_point" aria-describedby="emailHelp">
+										</div>
+										<div class="mb-3 Pois">
+											<p>POIs</p>
+											<div class="search-box">
+												<input class="search-input" type="text" placeholder="Search">
+												<a class="search-btn"><i class="fa fa-search"></i></a>
+												<div class="pois_flex">
+													<p class="tr-mode-choose">POIs<i class="fa fa-close"></i></p>
+													<p class="tr-mode-choose">POIs<i class="fa fa-close"></i></p>
+													<p class="tr-mode-choose">POIs<i class="fa fa-close"></i></p>
+													<p class="tr-mode-choose">POIs<i class="fa fa-close"></i></p>
+												</div>
+											</div>
+										</div>
+										<div class="mb-3 trip_flex trip_inform">
+											<label for="Tripcost" class="form-label">Trip Cost</label>
+											<input type="Text" class="form-control" id="Tripcost">
+										</div>
+										<div class="mb-3 trip_flex trip_inform">
+											<label for="Early_bird_rate" class="form-label">Early bird rate</label>
+											<input type="Text" class="form-control" id="Early_bird_rate">
+										</div>
+										<div class="mb-3 trip_flex trip_inform">
+											<label for="Payment_term" class="form-label">Payment terms</label>
+											<input type="Text" class="form-control" id="Payment_term" >
+										</div>
+									</form>
+								</div>
+								<div class="col-md-6 upload-section">
+									<h2>Upload Image <i class="fa fa-upload"></i></h2>
+									<div class="upload-img">
+										<img class="upload-01 upload-sty" src="img/dummy.jpg">
+										<img class="upload-02 upload-sty" src="img/dummy.jpg">
+										<img class="upload-03 upload-sty" src="img/dummy.jpg">
+										<img class="upload-04 upload-sty" src="img/dummy.jpg">
+									</div>
+									<div class="mb-3">
+										<div class="form-floatin">
+											<label for="exampleInputEmail1" class="form-label">Special Notes</label>
+											<textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+										</div>
+									</div>
+									<div class="mb-3 Document_to_carry">
+										<p>Document to carry</p>
+										<div class="search-box">
+											<input class="search-input" type="text" placeholder="Search">
+											<a class="search-btn"><i class="fa fa-search"></i></a>
+											<div class="pois_flex">
+												<p class="tr-mode-choose">POIs<i class="fa fa-close"></i></p>
+												<p class="tr-mode-choose">POIs<i class="fa fa-close"></i></p>
+												<p class="tr-mode-choose">POIs<i class="fa fa-close"></i></p>
+											</div>
+										</div>
+									</div>
+									<div class="mb-3 Document_to_carry thing_to_carry">
+										<p>Thins to carry</p>
+										<div class="search-box">
+											<input class="search-input" type="text" placeholder="Search">
+											<a class="search-btn"><i class="fa fa-search"></i></a>
+											<div class="pois_flex">
+												<p class="tr-mode-choose">POIs<i class="fa fa-close"></i></p>
+												<p class="tr-mode-choose">POIs<i class="fa fa-close"></i></p>
+												<p class="tr-mode-choose">POIs<i class="fa fa-close"></i></p></div>
+											</div>
+										</div>
+										<div class="meal-option">
+											<p>Trip inclusion</p>
+											<div class="meal-tick">
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+													<label class="form-check-label" for="inlineCheckbox1">Transport</label>
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+													<label class="form-check-label" for="inlineCheckbox2">Stay</label>
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+													<label class="form-check-label" for="inlineCheckbox2">Food</label>
+												</div>
+											</div>
+										</div>
+										<div class="mb-3">
+											<div class="form-floatin">
+												<label for="exampleInputEmail1" class="form-label">Trip Exclusion</label>
+												<textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Optional JavaScript; choose one of the two! -->
+			<!-- Option 1: Bootstrap Bundle with Popper -->
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		</body>
+	</html>

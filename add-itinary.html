@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Add Itinerary</title>
+		<link rel="stylesheet" type="text/css" href="add-style.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	</head>
+	<body>
+		
+		<section id="Add_Itinerary">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">Add Itinerary</h1>
+					</div>
+					<div class="col-md-12">
+						<div class="box-wrapper">
+							<div class="day_one">
+								
+								<form>
+									<div class="day_one_col">
+										<div class="day_one_col_flex">
+											<div class="date&day">
+												<h3><img class="circle_point" src="img/circle.png">Day 1</h3>
+												<p>DD/MM/YYYY</p>
+											</div>
+											<div class="mb-3 trip_flex trip_name">
+												<input type="Text" class="form-control" id="tripname" placeholder="Day Title">
+												<div class="icon-add"><i class="fa fa-plus"></i></div>
+											</div>
+										</div>
+										<div class="main-add-activity">
+											<div class="add_activity">
+												<div class="dropdown">
+													<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+													Add Activity
+													</button>
+													<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+														<li><a class="dropdown-item" href="#">Action</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="destination ">
+												<div class="desti-from trip_flex">
+													<label for="exampleInputEmail1" class="form-label">From</label>
+													<input type="datetime-local" class="form-control" id="trip-from" aria-describedby="emailHelp">
+												</div>
+												<div class="desti-to trip_flex">
+													<label for="exampleInputEmail1" class="form-label">To</label>
+													<input type="datetime-local" class="form-control" id="tripto" aria-describedby="emailHelp">
+												</div>
+											</div>
+										</div>
+										<div class="activity_option">
+											<div class="activiti_img"><img src="img/file.png"></div>
+											<div class="add_activity">
+												<div class="dropdown">
+													<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+													Activity Option
+													</button>
+													<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+														<li><a class="dropdown-item" href="#">Action</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="form-floating">
+												<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+												<label for="floatingTextarea2">Description</label>
+											</div>
+										</div>
+										<div class="add_activity-two">
+											<div class="dropdown">
+												<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+												Add Activity
+												</button>
+												<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+													<li><a class="dropdown-item" href="#">Action</a></li>
+												</ul>
+											</div>
+											<div><i class="fa fa-close"></i></div>
+										</div>
+									</div>
+									<div class="day_two_col mt-5">
+										<div class="day_one_col_flex">
+											<div class="date&day">
+												<h3 class="befo-line"><img class="circle_point" src="img/circle.png"> Day 2</h3>
+												<p>DD/MM/YYYY</p>
+											</div>
+											<div class="mb-3 trip_flex trip_name">
+												<input type="Text" class="form-control" id="tripname" placeholder="Day Title">
+												<div class="icon-add"><i class="fa fa-plus"></i></div>
+											</div>
+										</div>
+										<div class="add_activity-two">
+											<div class="dropdown">
+												<nav class="navbar navbar-expand-lg navbar-dark">
+													<div class="container-fluid">
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Add Activity</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">Transfer &raquo;</a>
+												<ul class="submenu dropdown-menu">
+												<li><a class="dropdown-item" href="#">Stay</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 3</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+											</ul>
+											</li>
+											<li><a class="dropdown-item" href="#">Eat &raquo; </a>
+												<ul class="submenu dropdown-menu">
+												<li><a class="dropdown-item" href="#">Stay</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 3</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+											</ul>
+											</li>
+											<li><a class="dropdown-item" href="#">Stay &raquo; </a>
+											<ul class="submenu dropdown-menu">
+												<li><a class="dropdown-item" href="#">Stay</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 3</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+											</ul>
+									</li>
+									<li><a class="dropdown-item" href="#">Leisure</a>
+										<ul class="submenu dropdown-menu">
+												<li><a class="dropdown-item" href="#">Stay</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 3</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+											</ul>
+									</li>
+									<li><a class="dropdown-item" href="#">Poi Covered</a>
+										<ul class="submenu dropdown-menu">
+												<li><a class="dropdown-item" href="#">Stay</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 3</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+											</ul>
+									</li>
+									<li><a class="dropdown-item" href="#">Other</a>
+										<ul class="submenu dropdown-menu">
+												<li><a class="dropdown-item" href="#">Stay</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 3</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+												<li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+											</ul>
+									</li>
+								</ul>
+							</li>
+					</ul>
+				</li>
+			</ul>
+			
+									</div> <!-- navbar-collapse.// -->
+									</div> <!-- container-fluid.// -->
+								</nav>
+							</div>
+						</div>
+						<div class="add_more_day mt-5">
+							<div class="day_one_col_flex">
+								<div class="date&day">
+									<h3><img class="circle_point" src="img/circle.png"> Add More Day</h3>
+								</div>
+								<div class="icon-add"><i class="fa fa-plus"></i></div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+		//	window.addEventListener("resize", function() {
+				//		"use strict"; window.location.reload();
+		//	});
+	document.addEventListener("DOMContentLoaded", function(){
+	/////// Prevent closing from click inside dropdown
+		document.querySelectorAll('.dropdown-menu').forEach(function(element){
+			element.addEventListener('click', function (e) {
+			e.stopPropagation();
+			});
+		})
+		// make it as accordion for smaller screens
+		if (window.innerWidth < 992) {
+			// close all inner dropdowns when parent is closed
+			document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown){
+				everydropdown.addEventListener('hidden.bs.dropdown', function () {
+					// after dropdown is hidden, then find all submenus
+					this.querySelectorAll('.submenu').forEach(function(everysubmenu){
+						// hide every submenu as well
+						everysubmenu.style.display = 'none';
+					});
+				})
+			});
+			
+			document.querySelectorAll('.dropdown-menu a').forEach(function(element){
+				element.addEventListener('click', function (e) {
+		
+					let nextEl = this.nextElementSibling;
+						if(nextEl && nextEl.classList.contains('submenu')) {
+						// prevent opening link if link needs to open dropdown
+						e.preventDefault();
+						console.log(nextEl);
+						if(nextEl.style.display == 'block'){
+							nextEl.style.display = 'none';
+						} else {
+							nextEl.style.display = 'block';
+						}
+					}
+				});
+			})
+		}
+		// end if innerWidth
+	});
+	// DOMContentLoaded  end
+</script>
+</body>
+</html>

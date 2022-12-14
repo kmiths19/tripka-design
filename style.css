@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+section#Transportation-details {
+    margin-top: 20px;
+}
+section#Transportation-details h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 500;
+}
+section#Transportation-details .box-wrapper {
+    border: 1px solid #939393;
+    padding: 20px;
+    border-radius: 2px;
+}
+.trans-mode-col {
+    display: flex;
+}
+.trans-mode-col input#exampleInputEmail1 {
+    width: 77px;
+    margin-left: 30px;
+    height: 30px;
+}
+.trans-mode-sec-col {
+    display: flex;
+}
+.trans-mode-sec-col .search-box {
+    margin-left: 160px;
+    position: relative;
+}
+.trans-mode-sec-col input.search-input {
+    border: 1px solid #939393;
+    width: 251px;
+    padding: 2px;
+    border-radius: 4px;
+    position: relative;
+}
+.search-box i.fa.fa-search {
+    position: absolute;
+    right: 19px;
+    top: 6px;
+    color: #000;
+}
+p.tr-mode-choose {
+    border: 1px solid #939393;
+    width: 140px;
+    margin-top: 5px;
+    border-radius: 0;
+    padding: 2px 0px;
+}
+p.tr-mode-choose i.fa.fa-close {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 50%;
+}
+.pickup-col {
+    display: flex;
+}
+.pic-point {
+    display: flex;
+}
+
+.seating-capacity {
+    display: flex;
+}
+.pic-point input#pickup-loc {
+    width: 253px;
+    height: 30px;
+    margin-left: 48px;
+}
+.seating-capacity input#inputnumber {
+    width: 98px;
+    height: 30px;
+    margin-left: 20px;
+}
+.seating-capacity p {
+    margin-left: 130px;
+}
+
+.drop-point{
+	display: flex;
+}
+.drop-point .end-loc {
+    display: flex;
+}
+.drop-point .end-loc input#drop-loc {
+    width: 253px;
+    height: 30px;
+    margin-left: 67px;
+}
+.ac-type {
+    display: flex;
+    margin-left: 130px;
+}
+.ac-type select.form-select {
+    height: 30px;
+    border: 1px solid #939393;
+    margin-left: 62px;
+    width: 93px;
+    border-radius: 2px;
+}
+.seating-capacity select.form-select{
+	    height: 30px;
+    border: 1px solid #939393;
+    margin-left: 62px;
+    width: 93px;
+    border-radius: 2px;	
+}
+section#Stay-Details .box-wrapper {
+    border: 1px solid #939393;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+section#Stay-Details h1 {
+    margin-top: 20px;
+    margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+section#Stay-Details input#exampleInputEmail1 {
+    width: 77px;
+    margin-left: 113px;
+    height: 30px;
+}
+section#Stay-Details .search-box {
+    margin-left: 196px;
+    position: relative;
+}
+section#Stay-Details input#pickup-loc {
+    width: 253px;
+    height: 30px;
+    margin-left: 175px;
+}
+.meal-option {
+    display: flex;
+}
+.meal-option p {
+    margin-right: 100px;
+}
+
+section#edit-details .box-wrapper {
+    border: 1px solid #939393;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+section#edit-details {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+section#edit-details h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 500;
+}

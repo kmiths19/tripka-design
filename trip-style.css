@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+section#trip-performance {
+    margin-top: 50px;
+}
+
+section#trip-performance .box-wrapper {
+    border: 1px solid #939393;
+    padding: 20px;
+    border-radius: 2px;
+}
+h1.title {
+	margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.status-trip-perfor {
+    text-align: center;
+}
+a.download {
+    float: right;
+    margin-top: -40px;
+    color: #000;
+    text-decoration: none;
+}
+a.download i.fa.fa-download {
+    margin-right: 10px;
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+section#About-trip {
+    margin-top: 50px;
+}
+section#About-trip .box-wrapper {
+    border: 1px solid #939393;
+    padding: 20px;
+    border-radius: 2px;
+}

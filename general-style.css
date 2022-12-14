@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+section#Gen-information {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section#Gen-information .box-wrapper {
+    border: 1px solid #939393;
+    padding: 20px;
+    border-radius: 2px;
+}
+h1.title {
+	margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.trip_flex {
+    display: flex;
+}
+.total-days {
+    display: flex;
+    margin-top: 16px;
+}
+.total-D {
+    display: flex;
+}
+.total-N {
+    display: flex;
+}
+.trip-date {
+    display: flex;
+}
+.pickup_point {
+    display: flex;
+}
+.Pois {
+    display: flex;
+}
+.pois_flex {
+    display: flex;
+}
+
+.trip_name input#tripname {
+    height: 32px;
+    width: 485px;
+    margin-left: 50px;
+}
+.destination {
+    display: flex;
+}
+.destination input {
+    width: 170px;
+}
+input#trip-from {
+    margin-left: 87px;
+}
+input#tripto {
+    margin-left: 15px;
+}
+.desti-to.trip_flex label.form-label {
+    margin-left: 116px;
+}
+.total-days input {
+    width: 90px;
+}
+input#trip-d {
+    margin-left: 54px;
+}
+input#trip-n {
+    margin-left: 50px;
+}
+.total-days label.form-label {
+    margin-left: 10px;
+}
+.trip-date.mb-3 input#trip_date {
+    height: 34px;
+    width: 262px;
+}
+.trip-date label.form-label {
+    margin-right: 53px;
+}
+
+.pickup_point input#pickup_point {
+    height: 33px;
+    width: 262px;
+    margin-left: 29px;
+}
+.search-box {
+    position: relative;
+}
+input.search-input {
+    border: 1px solid #939393;
+    width: 493px;
+    padding: 2px;
+    border-radius: 4px;
+    position: relative;
+}
+.search-box i.fa.fa-search {
+    position: absolute;
+    right: 19px;
+    top: 6px;
+    color: #000;
+}
+.Pois .search-box {
+    margin-left: 85px;
+}
+p.tr-mode-choose {
+    border: 1px solid #999898;
+    padding: 2px 6px;
+    font-size: 13px;
+    width: 118px;
+    border-radius: 2px;
+    margin: 10px 3px;
+}
+p.tr-mode-choose i.fa.fa-close {
+    margin-left: 54px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 2px 3px;
+    font-size: 10px;
+}
+.trip_inform input {
+    height: 33px;
+    width: 210px;
+}
+input#Tripcost {
+    margin-left: 58px;
+}
+input#Early_bird_rate {
+    margin-left: 23px;
+}
+input#Payment_term {
+    margin-left: 16px;
+}
+.upload-section h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+.upload-sty {
+    width: 115px;
+    margin: 5px;
+}
+.upload-section {
+    padding-left: 100px;
+}
+.form-floatin {
+    margin-top: 20px;
+    display: flex;
+}
+textarea#floatingTextarea2 {
+    width: 385px;
+    margin-left: 27px;
+}
+.Document_to_carry {
+    display: flex;
+}
+
+.Document_to_carry input.search-input {
+    border: 1px solid #939393;
+    width: 329px;
+    padding: 2px;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 46px;
+}
+
+.Document_to_carry p.tr-mode-choose {
+    border: 1px solid #999898;
+    padding: 2px 6px;
+    font-size: 13px;
+    width: 120px;
+    border-radius: 2px;
+    margin: 10px 3px;
+}
+.thing_to_carry input.search-input {
+    width: 368px;
+}
+.thing_to_carry .pois_flex {
+    display: flex;
+    margin-left: 42px;
+}
+.meal-option {
+    display: flex;
+}
+.meal-option .meal-tick {
+    margin-left: 49px;
+}

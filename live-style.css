@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+p,h1,i{
+  margin: 0;
+  padding: 0;
+}
+section#Add_Itinerary {
+    margin-top: 50px;
+}
+
+section#Add_Itinerary .nav {
+    display: inherit;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+nav.navbar {
+    padding: 0;
+}
+nav.navbar {
+    justify-content: inherit !important;
+}
+button.navbar-toggler {
+    margin-left: 136px;
+}
+.menu_trips nav.navbar .container-fluid {
+    padding: 0;
+    justify-content: inherit !important;
+}
+button.navbar-toggler {
+    padding: 0;
+    margin-top: 9px;
+}
+ul#myTab li.nav-item i {
+    color: #000;
+    margin-right: 6px;
+    font-size: 18px;
+}
+a.navbar-brand {
+    color: #000;
+}
+section#Add_Itinerary ul#myTab li.nav-item button {
+    color: #000;
+    font-size: 18px;
+    margin: 6px 0;
+}
+.menu_trips {
+    display: flex;
+}
+.menu_trips nav.navbar .container-fluid {
+    padding: 0;
+}
+
+nav.navbar.navbar-light .container-fluid {
+    padding: 0;
+}
+button.navbar-toggler {
+    border: none;
+}
+button.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+span.navbar-toggler-icon {
+    width: 20px;
+}
+.box_main_wrapper {
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    padding: 6px;
+    height: 100%;
+}
+.menu_trips nav.navbar.navbar-expand-xxl .container-fluid {
+    padding: 0;
+}
+img.trip_img {
+    width: 234px;
+}
+h1.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.row.trip_view_status {
+    text-align: center;
+}
+.row.trip_view_status p {
+    margin-bottom: 0;
+}
+a.trip_detail_btn {
+    display: block;
+    padding: 10px;
+    width: 175px;
+    margin: 0 auto;
+    background: #c7c7c7;
+    font-size: 19px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+    border: 1px solid #898787;
+    margin-top: 20px;
+}
+
+.menu_trips.rectangle_col {
+    justify-content: center;
+    position: relative;
+    top: 50%;
+}
+.row.second_row_live_trips .box_live_trips {
+    height: 300px;
+}
+
+.box_live_trips.trip_btn a.trip_detail_btn {
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    background: #c7c7c7;
+    font-size: 19px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+    border: 1px solid #898787;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    top: 42%;
+}
